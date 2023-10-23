@@ -1,130 +1,130 @@
-.button1{
-    background-color: black;
-    color: white;
-    border: 1px solid black;
-    cursor:pointer;
-    padding: 0.2rem 1rem;
-    border-radius: 0.5rem;
-    font-size: 10px;
+:root{
+    --color-blue-lighter2: #2370f4;
+    --color-grey-grade5: #212121;
+    --color-grey-grade0: #fafafa;
+    --color-grey-grade6: #d7d7d7;
 }
 
-.button2{
-    background-color: blue;
-    color: white;
-    border: none;
-    cursor:pointer;
-    padding: 0.5rem 1.5rem;
+.container{
+    max-width: 100%;
+}
+
+.btn{
+    padding:0.5rem 1rem;
     border-radius: 2rem;
-    font-size: 16px;
-}
-
-.button3{
-    background-color: #e7e7e7;
-    color: black;
-    border: none;
-    cursor:pointer;
-    padding: 0.7rem 3rem;
-    border-radius: 50%;
-    font-size: 20px;
-}
-
-.button4{
-    background-color: white;
-    border: 2px solid green;
-    padding: 0.5rem 1.5rem;
-    color:green;
     cursor:pointer;
 }
-
-.button5{
-    background-color: white;
-    color:red;
-    border: 2px solid red;
-    padding: 0.5rem 3rem;
-    border-radius: 0.2rem;
     
+.btn-color-black {
+    background-color:var(--color-grey-grade5);
+    color:var(--color-grey-grade0);
+    border: 1px solid var(--color-grey-grade5);
+    padding: 1.5rem 1rem;
+    border-radius: 50%;
 }
+   
 
-.button6{
+
+.btn-color-blue{
+    background-color:var(--color-blue-lighter2);
+    color:var(--color-grey-grade0);
+    border: none;
+}
+    
+    
+    
+
+
+.btn-color-gray{
+
+    background-color: var(--color-grey-grade6);
+    color: var(--color-grey-grade5);
+    border: none;
+}
+    
+    .btn-border-color-black{
+    background-color: var(--color-grey-grade0);
+    border: 2px solid var(--color-grey-grade5);
+    color:var(--color-grey-grade5);
+    }
+
+.btn-border-color-blue{
+    background-color: var(--color-grey-grade0);
+    color:var(--color-blue-lighter2);
+    border: 2px solid var(--color-blue-lighter2);
+}
+    
+ .btn-hover-gray{
     transition-duration: 0.4s;
-    background-color:#e7e7e7;
-    color: black;
+    background-color:var(--color-grey-grade6);
+    color:var(--color-grey-grade5);
     border:none;
-    padding:0.5rem 1.5rem;
-    cursor: pointer;
-
-}
-.button6:hover {
+ }
+    
+ .btn-hover-gray:hover {
     transition-duration: 0.4s;
-    background-color: white;
-    color: black;
-    border:2px solid gray;
-    padding:0.5rem 1.5rem
-
-}
-
-.button7{
+    background-color: var(--color-blue-lighter2);
+    color: var(--color-grey-grade0);
+    border:2px solid var(--color-blue-lighter2);
+ }
+    
+.btn-hover-black{
     transition-duration: 0.4s;
-    background-color: white;
-    color: black;
-    border:2px solid black;
-    padding:0.5rem 2rem;
-    cursor: pointer;
+    background-color: var(--color-grey-grade0);
+    color: var(--color-grey-grade5);
+    border:2px solid var(--color-grey-grade5);
 }
-
-.button7:hover{
+    
+  .btn-hover-black:hover{
     transition-duration: 0.4s;
-    background-color: black;
-    color: white;
+    background-color:var(--color-grey-grade5);
+    color: var(--color-grey-grade0);
     border:none;
     padding:0.5rem 2rem;
-    cursor: pointer;}
+}
+   
+.btn-shadow{
+    background-color:var(--color-blue-lighter2);
+    color:var(--color-grey-grade0);
+     border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   
+   }
 
-   .button8{
-    background-color: green;
-    color:white;
-    padding:0.5rem 1rem;
+   .btn-shadow-hover{
+    transition-duration: 0.4s;
+    background-color: var(--color-blue-lighter2);
+    color:var(--color-grey-grade0);
+    border: none;
+    
+   }
+
+   .btn-shadow-hover:hover{
+    transition-duration: 0.4s;
+    background-color: var(--color-blue-lighter2);
+    color:var(--color-grey-grade0);
     border: none;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    cursor:pointer;
-   }
+    }
 
-   .button9{
-    transition-duration: 0.4s;
-    background-color: green;
-    color:white;
-    padding:0.5rem 1rem;
-    border: none;
-    cursor: pointer;
-   }
+   
 
-   .button9:hover{
-    transition-duration: 0.4s;
-    background-color: green;
-    color:white;
-    padding:0.5rem 1rem;
-    border: none;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    cursor:pointer;
-
-   }
-
-   .button10{
-    background-color: green;
-    color:#e7e7e7;
-    padding:0.5rem 1rem;
+   .link-primary{
+    background-color: var(--color-blue-lighter2);
+    color:var(--color-grey-grade0);
     text-decoration: none;
-    border-radius: 1rem;
+    
    }
 
-   .button11{
-    background-color: white;
-    border:2px solid green;
-    color:black;
-    padding:0.5rem 1rem;
+   .link-secondary{
+    background-color: var(--color-grey-grade0);
+    border:2px solid var(--color-blue-lighter2);
+    color:var(--color-blue-lighter2);
     text-decoration: none;
-    border-radius: 1rem;
+    }
 
+   .link-tertiary{
+    color:var(--color-blue-lighter2)
    }
    
    hr{
