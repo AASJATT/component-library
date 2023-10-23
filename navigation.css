@@ -1,0 +1,39 @@
+:root{
+    --color-blue-lighter2: #2370f4;
+    --color-grey-grade5: #212121;
+    --color-grey-grade0: #fafafa;
+    --color-grey-grade6: #d7d7d7;
+}
+
+body{
+    margin:0px;
+}
+
+.navigation{
+    background: var(--color-blue-lighter2);
+    padding:1.2rem;
+}
+.nav-brand{
+    font-weight: bold;
+}
+
+.list-item-inline{
+ display: inline;}
+
+ .nav-pills{
+ text-align: center;
+ 
+}
+.link{
+    color:var(--color-grey-grade0);
+    text-decoration: none;
+    margin:1rem;
+}
+.link-active{
+    color:var(--color-grey-grade5)
+    font-weight: bold;
+    border: 2px solid var(--color-grey-grade0);
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    background: var(--color-grey-grade0);
+}

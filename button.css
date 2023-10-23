@@ -5,8 +5,8 @@
     --color-grey-grade6: #d7d7d7;
 }
 
-.container{
-    max-width: 100%;
+body{
+    margin:0px;
 }
 
 .btn{
@@ -72,7 +72,7 @@
     transition-duration: 0.4s;
     background-color: var(--color-grey-grade0);
     color: var(--color-grey-grade5);
-    border:2px solid var(--color-grey-grade5);
+    border:2px solid var(--color-blue-lighter2);
 }
     
   .btn-hover-black:hover{
