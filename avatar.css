@@ -1,0 +1,15 @@
+ :root{
+        --color-blue-lighter2: #2370f4;
+        --color-grey-grade5: #212121;
+        --color-grey-grade0: #fafafa;
+        --color-grey-grade6: #d7d7d7;
+}
+
+.avatar{
+    
+    font-size: 32px;
+    margin-inline-start: 2rem;
+    padding: 2rem 2rem ;
+    margin-bottom: 1rem;
+    display:inline-block;}
+   

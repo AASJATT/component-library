@@ -6,7 +6,8 @@
 }
 
 body{
-    margin:0px;
+    
+    margin-inline-start: 2rem;
 }
 
 .btn{
