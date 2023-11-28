@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link rel="stylesheet" href="modal.css">
+</head>
+<body>
+    <a href="./index.html">index</a>
+    <a href="./navigation.html">navigation</a>
+    <a href="button.html">button</a>
+    <a href="avatar.html">avatar</a>
+    <a href="cards.html">cards</a>
+    <a href="alerts.html">alerts</a>
+    <a href="modal.html">modal</a>
+
+    <h1>Modals</h1>
+
+    <section class="modal modal-section">
+        <h1 class="modal modal-heading">Contact Us</h1>
+
+    <form class="modal modal-form">
+        <fieldset class="modal modal-fieldset">
+            <legend class="modal modal-legend">Contact Information</legend>
+            <div class=" modal modal-name">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" 
+                  placeholder="enter your full name"
+                  required>
+                  </div>
+
+                  <div class="modal modal-email">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email"
+                    placeholder="enter your valid email id"
+                    required>
+                  </div>
+
+                  <div class="modal modal-message">
+                 <label for="message">Message:</label>
+                 <textarea name="message" id="message" required></textarea>
+                 </div>
+            
+        </fieldset>
+
+        <fieldset class="modal modal-fieldset">
+            <legend class="modal modal-legend">Subscription</legend>
+            <div class="modal modal-checkbox">
+                <input type="checkbox" name="subscribe" id="subscribe">
+                <label for="subscribe">Subscribe to Newsletter</label>
+            </div>
+        </fieldset>
+
+        <div class="modal modal-button">
+            <button type="submit">Submit</button>
+        </div>
+    </form> 
+    </section>
+</body>
+</html>
