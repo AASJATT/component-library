@@ -30,7 +30,7 @@ body{
     margin:1rem;
 }
 .link-active{
-    color:var(--color-grey-grade5)
+    color:var(--color-grey-grade5);
     font-weight: bold;
     border: 2px solid var(--color-grey-grade0);
     border-radius: 2rem;

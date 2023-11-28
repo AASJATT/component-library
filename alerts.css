@@ -1,0 +1,10 @@
+.alert-icon-container{
+    color:blue;
+    font-size:x-large;
+}
+
+.alert-check-double-container{
+    border: 1px solid red;
+    border-radius: 50%;
+    
+}
