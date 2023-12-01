@@ -12,4 +12,25 @@
     padding: 2rem 2rem ;
     margin-bottom: 1rem;
     display:inline-block;}
+
+    .avatar-chevron-right, .avatar-chevron-left{
+        position:absolute;
+        top:54%;
+        width:auto;
+        padding:16px;
+        margin-top: -50px;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0px 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+
+
+                                                                   
+    }
+
+    .avatar-chevron-right{
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
    

@@ -5,7 +5,7 @@
     --color-grey-grade6: #d7d7d7;
 }
 
-body{
+body{                                   
     
     margin-inline-start: 2rem;
 }
@@ -23,6 +23,10 @@ body{
     padding: 1.5rem 1rem;
     border-radius: 50%;
 }
+
+
+
+
    
 
 
@@ -128,8 +132,26 @@ body{
     color:var(--color-blue-lighter2)
    }
    
-   hr{
-    margin:1rem 
-   }
+  
+.avatar-chevron-right, .avatar-chevron-left{
+    position:absolute;
+    top:54%;
+    width:auto;
+    padding:16px;
+    margin-top: -50px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0px 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+
+
+                                                               
+}
+
+.avatar-chevron-right{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
 
    

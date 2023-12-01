@@ -21,13 +21,13 @@ body{
  display: inline;}
 
  .nav-pills{
- text-align: center;
+ text-align: right;
  
 }
-.link{
+ .link{
     color:var(--color-grey-grade0);
     text-decoration: none;
-    margin:1rem;
+    margin-left:4px;
 }
 .link-active{
     color:var(--color-grey-grade5);
@@ -36,4 +36,25 @@ body{
     border-radius: 2rem;
     padding: 0.5rem 1rem;
     background: var(--color-grey-grade0);
+}
+
+.avatar-chevron-right, .avatar-chevron-left{
+    position:absolute;
+    top:54%;
+    width:auto;
+    padding:16px;
+    margin-top: -50px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0px 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+
+
+                                                               
+}
+
+.avatar-chevron-right{
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
